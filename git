@@ -1,0 +1,23 @@
+本地分支推送至dev分支
+
+npm run lint  检查规范
+
+git add .
+
+git commit -m "detail" --no-verify 取消代码规范检测
+
+git push  推送
+
+git checkout dev  切换分支
+
+git pull  拉取
+
+git merge dev_lxd 合并
+
+git push
+
+dev ---> dev_lxd
+git checkout dev_lxd
+git merge dev
+
+git pull
