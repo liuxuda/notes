@@ -1,0 +1,7 @@
+1. 查看
+$ git config user.name
+$ git config user.email
+
+2. 设置
+$ git config --global user.name "luence"
+$ git config --global user.email "luenceq@163.com"
